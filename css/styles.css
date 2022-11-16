@@ -1,0 +1,169 @@
+#title{
+  background-color:darkcyan ;
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h3{
+  font-family:'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+h4{
+  font-family:'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: gray
+}
+
+p{
+  color:darkgrey
+}
+
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:'Work Sans', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  font: size 1.2rem;
+}
+
+
+.download-button{
+  margin: 8% 5% 8% 0;
+}
+
+.title-image{  
+  width: 65%;
+  transform:rotate(10deg);
+  position: absolute;
+  padding-left:15%;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: rgba(255, 200, 0, 0.79);
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:darkcyan
+}
+
+#testimonials{
+  text-align: center;
+  background-color: darkcyan;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius:80%;
+  margin:20px;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+.carousel-control-prev, .carousel-control-next{
+  border-style:none;
+  opacity:0;
+  transition:.10s ease-in
+}
+
+#press{
+  background-color: darkcyan;
+  text-align:center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 10px 20px 50px;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-header{
+  color:black;
+  font-size: 2.5rem;
+  font-weight:bolder;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+#cta{
+  background-color: darkcyan;
+  color:white;
+  padding:7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size:3rem;
+  line-height:1.5;
+}
+
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+@media(max-width:1028px){
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+}
